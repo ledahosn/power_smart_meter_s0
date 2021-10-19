@@ -1,0 +1,24 @@
+{
+  "name": "power_smart_meter_s0",
+  "version": "1.0.0",
+  "description": "Reading Smartmeter S0-Interface and inserting it to MySQL",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ledahosn/power_smart_meter_s0.git"
+  },
+  "author": "Luca Haid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ledahosn/power_smart_meter_s0/issues"
+  },
+  "homepage": "https://github.com/ledahosn/power_smart_meter_s0#readme",
+  "dependencies": {
+    "mysql2": "^2.3.0",
+    "onoff": "^6.0.3",
+    "dotenv": "^10.0.0"
+  }
+}
