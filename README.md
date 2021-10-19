@@ -7,8 +7,9 @@ Reading Smart-meter S0-Interface using GPIO and inserting it to MySQL to Grafana
 1. Node.js
 1. Grafana Server
 1. MySQL Database
-
+---
 ## Install Requirements (Using Raspberry Raspbian)
+
 
 1. npm / Node.js installation <br>
     1. `sudo apt update` <br>
@@ -24,7 +25,7 @@ Reading Smart-meter S0-Interface using GPIO and inserting it to MySQL to Grafana
 1. mysql database installation
     1. `sudo apt install mariadb-server`
     1. `sudo mysql_secure_installation`
-
+---
 ## Set-up Script - MySQL Database - Grafana Panels
 
 1. Set-up script
